@@ -227,7 +227,7 @@ def draw_delta_plots(data, pnum):
     plt.suptitle(f'Delta Plots - Participant {pnum}', fontsize=14)
     plt.tight_layout()
     
-    plt.savefig(f'delta_plots_participant_{pnum}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'2_delta_plots_participant_{pnum}.png', dpi=300, bbox_inches='tight')
     plt.show()
 
 def main_analysis():
@@ -324,7 +324,7 @@ def main_analysis():
     ax.axhline(y=0, color='gray', linestyle='--')
     
     plt.tight_layout()
-    plt.savefig('posterior_analysis.png', dpi=300, bbox_inches='tight')
+    plt.savefig('1_posterior_analysis.png', dpi=300, bbox_inches='tight')
     plt.show()
     
     # Create delta plots
@@ -333,7 +333,7 @@ def main_analysis():
     draw_delta_plots(trial_data, first_participant)
     
     # Save results
-    with open('sdt_results.txt', 'w') as f:
+    with open('3_sdt_results.txt', 'w') as f:
         f.write("Analysis Results\n")
         f.write("="*40 + "\n")
         f.write(f"Convergence: R-hat = {max_rhat:.4f}, ESS = {min_ess:.0f}\n\n")
