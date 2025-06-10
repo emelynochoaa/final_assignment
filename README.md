@@ -42,10 +42,10 @@
 ###  Posterior Analysis
 
 #### Top Left Graph: How Good People Were at Each Condition
-- **2 groups**: Easy conditions (right side, high scores) and Hard conditions (left side, low scores)
-- **Blue and Orange** (Easy conditions) are almost identical - shows stimulus type doesn't matter much
-- **Green and Red** (Hard conditions) are also almost identical - stimulus has almost no effect
-- **No overlap** between easy and hard groups - shows the difficulty effect is real and strong
+- 2 groups: Easy conditions (right side, high scores) and Hard conditions (left side, low scores)
+- Blue and Orange (Easy conditions) are almost identical, showing stimulus type doesn't matter much
+- Green and Red (Hard conditions) are also almost identical, meaning stimulus has almost no effect
+- No overlap between easy and hard groups, showing the difficulty effect is real and strong
 
 #### Top Right Graph:
 - **Easy conditions**: For easy conditions, people were more careful or picky about their choices (higher bars on right)
@@ -58,8 +58,8 @@
 - **Important**: Even though there are differences among people, they all show the same pattern (difficulty matters, stimulus type doesn't)
 
 #### Bottom Right Graph: 
-- **RED bar (Difficulty)**: Huge effect (~3.1 points)
-- **BLUE bar (Stimulus Type)**: Tiny effect (~0.03 points)
+- **Red bar (Difficulty)**: Huge effect (3.1 points)
+- **Blue bar (Stimulus Type)**: Tiny effect (0.03 points)
 - **Conclusion**: Difficulty effect is about 100 times bigger than stimulus type effect
 
 ### Response Time Patterns (Delta Plots):
@@ -91,9 +91,9 @@ When stimuli are complex, people's detection ability is not really affected, the
 ### Accuracy
 
 **Statistical Reliability**: Excellent
-- **Convergence**: Perfect (R-hat = 1.007, should be < 1.1) ✓
-- **Sample size**: Large enough (ESS = 1,901) ✓
-- **Consistency**: Both analysis methods agree ✓
+- **Convergence**: Perfect (R-hat = 1.007, should be < 1.1) 
+- **Sample size**: Large enough (ESS = 1,901) 
+- **Consistency**: Both analysis methods agree
 
 **The results are statistically solid and trustworthy**
 
@@ -105,4 +105,5 @@ When stimuli are complex, people's detection ability is not really affected, the
 ### Model Convergence
 - **R-hat**: 1.007 (excellent convergence)
 - **ESS**: 1,901 (effective sample size)
-- **Conclusion**: Model converged perfectly, therefore, results are statistically reliable.
+
+Model converged perfectly, therefore, results are statistically reliable.
